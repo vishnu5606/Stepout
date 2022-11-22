@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aatmnirbhar</string>
+    <string name="todo">TODO</string>
+    <string name="todo01">TODO</string>
+    <string name="todo02">TODO</string>
+    <string name="todo04">TODO</string>
+    <string name="todo06">TODO</string>
+    <string name="todo07">TODO</string>
+    <string name="buttonlogin">Button</string>
+    <string name="sign_in">Sign In</string>
+</resources>
