@@ -8,4 +8,6 @@
     <string name="todo07">TODO</string>
     <string name="buttonlogin">Button</string>
     <string name="sign_in">Sign In</string>
+    <string name="todo08">TODO</string>
+    <string name="mobile_number">Mobile Number</string>
 </resources>
