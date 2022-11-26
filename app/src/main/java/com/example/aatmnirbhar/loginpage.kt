@@ -4,17 +4,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 
-class forgotpassword : AppCompatActivity() {
+class loginpage : AppCompatActivity() {
 
-    private lateinit var resendotptext: TextView
+    private lateinit var forgotpassword_txt:TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_forgotpassword)
+        setContentView(R.layout.activity_loginpage)
 
-        resendotptext=findViewById(R.id.resendotptext)
-
-
-
+        forgotpassword_txt=findViewById(R.id.forgotpassword_txt)
     }
 }
