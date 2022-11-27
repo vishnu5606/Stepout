@@ -5,9 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".tutor_profilepage">
-
-
+    tools:context=".student_profilepage">
     <ImageView
         android:id="@+id/imageView16"
         android:layout_width="wrap_content"
@@ -130,7 +128,7 @@
         android:layout_width="293dp"
         android:layout_height="40dp"
         android:ems="10"
-        android:hint="Institute Name"
+        android:hint="School/College"
         android:inputType="textPersonName"
         android:paddingTop="10dp"
         android:textColorHint="#47779c"
@@ -147,8 +145,8 @@
         android:layout_width="293dp"
         android:layout_height="40dp"
         android:ems="10"
-        android:hint="Contact No."
-        android:inputType="phone"
+        android:hint="Course/Class."
+        android:inputType="textPersonName"
         android:paddingTop="10dp"
         android:textColorHint="#47779c"
         android:textSize="16dp"
@@ -164,7 +162,7 @@
         android:layout_width="293dp"
         android:layout_height="40dp"
         android:ems="10"
-        android:hint="Course Offered"
+        android:hint="Coaching"
         android:inputType="textPersonName"
         android:paddingTop="10dp"
         android:textColorHint="#47779c"
@@ -181,7 +179,7 @@
         android:layout_width="293dp"
         android:layout_height="40dp"
         android:ems="10"
-        android:hint="Fee"
+        android:hint="Subject"
         android:inputType="textPersonName"
         android:paddingTop="10dp"
         android:textColorHint="#47779c"
@@ -203,7 +201,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.214"
-        app:srcCompat="@drawable/tutorprofiledp" />
+        app:srcCompat="@drawable/profile_studentpage" />
 
     <ImageView
         android:id="@+id/imageView35"
@@ -250,11 +248,11 @@
         app:layout_constraintHorizontal_bias="0.026"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView16"
-        app:layout_constraintVertical_bias="0.742"
+        app:layout_constraintVertical_bias="0.747"
         app:srcCompat="@drawable/vector_course" />
 
     <ImageView
-        android:id="@+id/imageView51"
+        android:id="@+id/imageView18"
         android:layout_width="36dp"
         android:layout_height="43dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -262,8 +260,8 @@
         app:layout_constraintHorizontal_bias="0.026"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView16"
-        app:layout_constraintVertical_bias="0.795"
-        app:srcCompat="@drawable/vector_fee" />
+        app:layout_constraintVertical_bias="0.8"
+        app:srcCompat="@drawable/vector_subjest" />
 
     <ImageView
         android:id="@+id/imageView39"
@@ -274,7 +272,7 @@
         app:layout_constraintHorizontal_bias="0.026"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView16"
-        app:layout_constraintVertical_bias="0.627"
+        app:layout_constraintVertical_bias="0.621"
         app:srcCompat="@drawable/vector_institute" />
 
     <ImageView
@@ -299,7 +297,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView16"
         app:layout_constraintVertical_bias="0.684"
-        app:srcCompat="@drawable/vector_phone" />
+        app:srcCompat="@drawable/vector_class" />
 
     <ImageView
         android:id="@+id/imageView43"
@@ -419,16 +417,29 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="97dp"
+        android:layout_height="23dp"
+        android:gravity="bottom|center"
         android:text="Upload"
         android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="@+id/imageView12"
-        app:layout_constraintEnd_toEndOf="@+id/imageView29"
-        app:layout_constraintHorizontal_bias="0.479"
-        app:layout_constraintStart_toStartOf="@+id/imageView29"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView29"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.93" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="211dp"
+        android:layout_height="155dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView16"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/studentprofilebelowimg" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
