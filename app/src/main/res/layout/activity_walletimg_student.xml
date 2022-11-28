@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".walletimg_student">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/backgroundpflpg" />
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginStart="-10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bgwallettutrstd" />
+
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/headlinecentre" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView21"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginBottom="102dp"
+        app:srcCompat="@drawable/sidelinesorng" />
+
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="127dp"
+            android:layout_height="103dp"
+            android:layout_alignBottom="@+id/imageView21"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="124dp"
+            android:layout_marginEnd="149dp"
+            android:layout_marginBottom="87dp"
+            app:srcCompat="@drawable/vector_walletstdtutr" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:layout_alignBottom="@+id/imageView22"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="172dp"
+            android:layout_marginEnd="177dp"
+            android:layout_marginBottom="662dp"
+            android:gravity="center"
+            android:text="Wallet"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="465dp"
+            android:layout_marginTop="217dp"
+            android:columnCount="4"
+            android:columnOrderPreserved="false"
+            android:rowCount="1">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/walletimg01"
+                android:layout_width="521dp"
+                android:layout_height="114dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="-55dp"
+                android:src="@drawable/clickableimag001">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/walletimg02"
+                android:layout_width="566dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="-67dp"
+                android:layout_marginTop="110dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:src="@drawable/clickableimag03">
+
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/walletimg03"
+                android:layout_width="566dp"
+                android:layout_height="132dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="-69dp"
+                android:layout_marginTop="217dp"
+                android:src="@drawable/clickableimg03">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/walletimg04"
+                android:layout_width="627dp"
+                android:layout_height="124dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="-101dp"
+                android:layout_marginTop="340dp"
+                android:src="@drawable/clickableimg01">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textSize="20dp"
+                android:text="Earn from Test"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="55dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView02"
+                android:layout_width="152dp"
+                android:layout_height="52dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="142dp"
+                android:layout_marginTop="145dp"
+                android:gravity="center"
+                android:text="Earn from Referrals"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView03"
+                android:layout_width="131dp"
+                android:layout_height="53dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="265dp"
+                android:gravity="center"
+                android:text="Earn from Link Share"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textSize="20dp"
+                android:text="Transfer Points"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginStart="146dp"
+                android:layout_marginTop="393dp"
+                android:textStyle="bold"/>
+
+
+        </GridLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button"
+            android:layout_width="119dp"
+            android:layout_height="33dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_marginTop="685dp"
+            android:layout_marginStart="55dp"
+            android:background="@drawable/userpastextbg"
+            android:text="Submit"
+            tools:ignore="TouchTargetSizeCheck" />
+    </RelativeLayout>
+</ScrollView>

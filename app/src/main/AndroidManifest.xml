@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Aatmnirbhar"
         tools:targetApi="31">
         <activity
+            android:name=".walletimg_student"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".wallet_student"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".wallet_tutor"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".student_profilepage"
             android:exported="false">
             <meta-data

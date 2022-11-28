@@ -7,9 +7,11 @@
     tools:context=".student_dashboard"
     android:background="@drawable/background">
     <RelativeLayout
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
 
         <ImageView
             android:id="@+id/imageView8"
@@ -242,6 +244,7 @@
 
 
         </GridLayout>
+
 
 
     </RelativeLayout>
