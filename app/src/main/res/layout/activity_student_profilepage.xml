@@ -440,6 +440,31 @@
         app:layout_constraintTop_toTopOf="@+id/imageView16"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/studentprofilebelowimg" />
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="42dp"
+        android:layout_height="45dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextname18"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextname18"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView49"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextname17"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/vector_plusbtn" />
+
+    <ImageButton
+        android:id="@+id/imageButton02"
+        android:layout_width="42dp"
+        android:layout_height="45dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextname19"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextname19"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextname19"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextname18"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/vector_plusbtn" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
